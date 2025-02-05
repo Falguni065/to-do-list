@@ -57,3 +57,14 @@ button {
     background-color: chocolate;
 
 }
+
+ul li {
+    list-style: none;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+ul li.checked {
+    text-decoration: line-through;
+}
